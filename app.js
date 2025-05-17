@@ -4,7 +4,7 @@ const app = express();
 const mysql = require('mysql');
 const port = process.env.PORT || 3000;
 const corsOptions = {
-    origin: 'https://wellington-bautista.github.io/formulario-con-bd/', 
+    origin: 'https://formulario-con-bd.onrender.com', 
     methods: ['GET', 'POST', 'PUT', 'DELETE'],    
     allowedHeaders: ['Content-Type', 'Authorization'] 
   };
